@@ -1,7 +1,6 @@
-from worldbankapp import app
-
 import json, plotly
-from flask import render_template, request, Response, jsonify
+from flask import render_template, request
+from worldbankapp import app
 from scripts.get_data import return_figures
 
 

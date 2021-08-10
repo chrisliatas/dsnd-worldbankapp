@@ -1,6 +1,8 @@
 # Data Dashboard visualizing data from World Bank
 
-This project is built using Flask, Bootstrap, Plotly and Pandas for data wrangling.
+This project is built using Flask, Bootstrap, Plotly and Pandas for data wrangling. Data is acuired through the World Bank [**API endpoints**](https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information).
+
+[<img src="img/appScreenshot.png" width="800" height="423" alt="app screenshot">](https://dsdn-cl-webapp-test.herokuapp.com/)
 
 ### Presentation
 
@@ -25,9 +27,8 @@ The main libraries used for this project are ([`requirements.txt`](requirements.
 
 - `.devcontainer` directory is for building the local development environment, check [here](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) for more info.
 - `.vscode` directory is for setting up [Visual Studio Code](https://code.visualstudio.com/) and debug configurations.
-- `data` directory is holding the data used for the analysis.
 - `worldbankapp` is the flask application, including templates and routes.
-- `wrangling_scripts` is the where the data processing and analysis occurs.
+- `scripts` is the where the data acquisition, processing and analysis occurs.
 - `Dockerfile.dev` is the Dockerfile used to build the development container.
 - `Procfile` is used to deploy the web app on [Heroku](http://heroku.com/).
 - `requirements.txt` contains the required python libraries to run the app.
